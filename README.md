@@ -1,27 +1,66 @@
-# EcommerceAngular
+![banner-angular](https://user-images.githubusercontent.com/66692202/180903810-6694154b-fdde-4a4f-9885-369c56bc63cd.png)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
+# Desafios Angular- DIO
 
-## Development server
+Após o término do módulo de Angular foi solicitado a conclusão de quatro desafios para testar os conhecimentos adquiridos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Do que você vai precisar
 
-## Build
+**Comandos para gerenciar sua primeira aplicação**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **ng new spaangular --prefix=spa**
 
-## Running unit tests
+- **Would you like to add Angular Routing?** 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+  - Ao responder “Yes" ele cria um arquivo de rota em
+    nossa aplicação.
 
-## Running end-to-end tests
+- **Which stylesheet format would you like to use?** 
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+  - Neste caso, basta ir com a setinha e escolher CSS.
 
-## Further help
+- **cd spaangular **
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+  - (Comando para navegar até o seu projeto. Pode ser substituído abrindo o CMD diretamente na pasta da aplicação)
+
+- **ng serve -o** 
+
+  -  (Comando para iniciar o servidor, e ficar observando os arquivos. A cada mudança
+    nos arquivos, ele reconstrói “rebuild” a aplicação.)
+
+    O comando –o, é uma abreviação para --open, e abre o seu browser padrão após finalizar a
+    compilação)
+
+
+
+**Ferramentas necessárias:**
+
+- Do Node instalado na sua máquina
+
+- API: https://github.com/naatscs/DIO-LiveCoding-Api-GETProducts ou [api.itbook.store](https://api.itbook.store/#api-overview).
+
+  
+
+  **Requisitos técnicos:**
+
+- Lógica de programação básica
+
+- Conhecimento básico em consumo de API
+
+- Conhecimento básico em HTML, CSS e BOOTSTRAP
+
+
+
+**Comandos úteis**
+
+- Component: ng g component my-new-component
+- Directive: ng g directive my-new-directive
+- Pipe: ng g pipe my-new-pipe
+- Service: ng g service my-new-service
+- Class: ng g class my-new-class
+- Guard: ng g guard my-new-class
+- Interface: ng g interface my-new-interface
+- Enum: ng g enum my-new-enum
+- Module: ng g module my-module
